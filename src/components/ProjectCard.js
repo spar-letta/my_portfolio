@@ -10,10 +10,7 @@ const ProjectCard = () => {
             <div className='flip-card'>
               <div className='flip-card-inner'>
                 <div className='flip-card-front'>
-                  <img
-                    src='https://raw.githubusercontent.com/spar-letta/DataFile/main/Screenshot%20from%202023-07-18%2010-42-24.png'
-                    alt='Avatar'
-                  />
+                  <img src={item.description.image_link} alt='Avatar' />
                 </div>
                 <div className='flip-card-back'>
                   <h4>{item.description.title}</h4>
