@@ -71,6 +71,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  background: rgba(138, 43, 226, 0.1);
 }
 .itms {
   width: 100%;
@@ -103,6 +104,16 @@
   width: 100%;
   padding: 3px;
   font-size: 10px;
+  color: blue;
+  background-color: wheat;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.links-git {
+  text-decoration: underline;
+  color: black;
+  text-transform: capitalize;
 }
 
 @media screen and (min-width: 760px) {
