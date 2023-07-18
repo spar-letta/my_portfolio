@@ -1,6 +1,5 @@
 import React from 'react'
 import './projectcard.css'
-import img_avatar from '../images/img_avatar.png'
 import { MyData } from '../Data'
 const ProjectCard = () => {
   return (
