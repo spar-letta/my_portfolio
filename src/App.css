@@ -1,0 +1,164 @@
+.header-frame {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ==============content=========== */
+.content-frame {
+  background: rgba(173, 216, 230, 0.4);
+  width: 90%;
+  min-height: 550px;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.rec-simbo {
+  position: absolute;
+  width: 15px;
+  border-radius: 50px;
+  background: rgba(173, 216, 230, 0.9);
+  padding: 2rem;
+  top: 2rem;
+  left: -0.8rem;
+  z-index: 1000;
+}
+
+.bio-data {
+  padding: 100px 1rem;
+  font-weight: lighter;
+  line-height: 24px;
+}
+
+.rec-simbo-top-right {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+  background: rgba(173, 216, 230, 1);
+  top: -0.7rem;
+  right: -0.5rem;
+  z-index: 1000;
+  transform: rotate(45deg);
+}
+
+.rec-simbo-bottom-left {
+  position: absolute;
+  width: 30%;
+  border-radius: 2px;
+  background: rgba(173, 216, 230, 1);
+  bottom: -1rem;
+  left: 3rem;
+  z-index: 1000;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.rec-simbo-bottom-right {
+  position: absolute;
+  width: 30%;
+  border-radius: 2px;
+  background: rgba(173, 216, 230, 1);
+  bottom: -1rem;
+  right: 3rem;
+  z-index: 1000;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.rec-simbo-bottom-right:hover,
+.rec-simbo-bottom-left:hover {
+  font-size: 16px;
+}
+
+.contacts {
+  padding-top: 4rem;
+}
+
+.bio-data h5 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+/* ==============content end=========== */
+
+/* =============content 2============== */
+.content2-frame {
+  width: 90%;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+/* ==============content 2 end============== */
+
+/* ==============content3============== */
+.content3-frame {
+  width: 90%;
+  padding: 1rem;
+  position: relative;
+}
+
+.summ-div {
+  position: absolute;
+  background: lightblue;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  transform: rotate(45deg);
+  top: 5px;
+  z-index: -1;
+}
+
+.list-items-skills {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  background: rgba(173, 216, 230, 0.2);
+  z-index: -1;
+}
+
+.list-items-skills ul {
+  list-style: circle;
+}
+.list-items-skills ul li {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+/* ================content3 end============ */
+/* ===============content4==================*/
+.content4-frame {
+  width: 90%;
+  padding: 1rem;
+  margin: auto;
+}
+
+.content4-frame h4 {
+  margin: 1rem 0;
+}
+
+/* ===============content4 end============= */
+
+/* ================footer frame============= */
+.footer-frame {
+  background: rgba(0, 0, 0, 0.9);
+  height: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-frame p {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.p-footer {
+  padding-top: 2rem;
+}
+/* ================footer frame end============ */
