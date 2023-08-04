@@ -19,6 +19,9 @@ const Content = () => {
           <h4>contacts</h4>
           <p>Tel : +254708761565</p>
           <p> email : simiyuenock1990@gmail.com</p>
+          <p>
+            <b>---looking for a job---</b>
+          </p>
         </div>
       </div>
     </div>
