@@ -80,4 +80,42 @@ export const MyData = [
       },
     ],
   },
+  // 3RD PROJECT
+  {
+    description: {
+      image_link:
+        'https://raw.githubusercontent.com/spar-letta/DataFile/main/hospital.jpg',
+      title: 'Hospital-Management - Microservice',
+      body: 'Hospital management microservice - How services communicate with each other using restTemplate and routing them through the gateway.',
+    },
+    data_link: [
+      {
+        link: 'https://github.com/spar-letta/hospital-management',
+        text: 'Hospital-Management',
+      },
+    ],
+    tools: [
+      {
+        tool: 'spring boot',
+      },
+      {
+        tool: 'h2 Db',
+      },
+      {
+        tool: 'Jpa',
+      },
+      {
+        tool: 'Integration Test',
+      },
+      {
+        tool: 'Kafka',
+      },
+      {
+        tool: 'jwt-security',
+      },
+      {
+        tool: 'docker',
+      },
+    ],
+  },
 ]
