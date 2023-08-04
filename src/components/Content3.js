@@ -10,10 +10,11 @@ const Content3 = () => {
           <li>J2EE - Spring boot, JSP,Spring Framework</li>
           <li>Microservices architecture</li>
           <li>Web-services - REST/JSON</li>
-          <li>Testing - JUnit,Mockito </li>
-          <li>CI/CD - Jenkins, Github versioning</li>
-          <li>Database - Mysql,Postgres,MongoDb,H2</li>
+          <li>Testing - JUnit,Mockito, Integration </li>
+          <li>CI/CD - Jenkins, Github</li>
+          <li>Database - Mysql,Postgres,H2</li>
           <li>Experience with - Docker, Kubernates</li>
+          <li>Messaging - Kafka</li>
           <li>UI - Html,Css,Javacript,React js</li>
         </ul>
       </div>

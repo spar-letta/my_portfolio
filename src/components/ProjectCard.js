@@ -15,7 +15,7 @@ const ProjectCard = () => {
                 <div className='flip-card-back'>
                   <h4>{item.description.title}</h4>
                   <p>{item.description.body}</p>
-                  <p className='links-git'>links to github repo:</p>
+                  <p className='links-git'>link(s) to github repo:</p>
                   <div className='group-links'>
                     {item.data_link.map((dta, index) => {
                       return (
