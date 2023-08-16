@@ -80,7 +80,44 @@ export const MyData = [
       },
     ],
   },
-  // 3RD PROJECT
+  // 4TH PROJECT
+  {
+    description: {
+      image_link:
+        'https://raw.githubusercontent.com/spar-letta/DataFile/main/jacoco.jpeg',
+      title: 'CRUD Operation with Postgres DB on Entity Book',
+      body: 'Create, Update, Delete',
+    },
+    data_link: [
+      {
+        link: 'https://github.com/spar-letta/book-postgres',
+        text: 'Entity Book',
+      },
+    ],
+    tools: [
+      {
+        tool: 'spring boot',
+      },
+      {
+        tool: 'postgres',
+      },
+      {
+        tool: 'Jpa',
+      },
+      {
+        tool: 'Integration Test',
+      },
+      {
+        tool: 'swagger',
+      },
+      {
+        tool: 'jacoco',
+      },
+      {
+        tool: 'docker-compose',
+      },
+    ],
+  },
   {
     description: {
       image_link:
