@@ -12,10 +12,11 @@ const Content3 = () => {
           <li>Web-services - REST/JSON</li>
           <li>Testing - JUnit,Mockito, Integration </li>
           <li>CI/CD - Jenkins, Github</li>
-          <li>Database - Mysql,Postgres,H2</li>
+          <li>Database - Mysql,Postgres, Mongo, H2</li>
           <li>Experience with - Docker, Kubernates</li>
-          <li>Messaging - Kafka</li>
+          <li>Messaging - Kafka, RabbitMq</li>
           <li>UI - Html,Css,Javacript,React js</li>
+          <li>Data Migration - Liquibase</li>
         </ul>
       </div>
     </div>

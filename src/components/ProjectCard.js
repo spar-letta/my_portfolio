@@ -9,10 +9,10 @@ const ProjectCard = () => {
           <div className='card' key={index}>
             <div className='flip-card'>
               <div className='flip-card-inner'>
-                <div className='flip-card-front'>
+                {/* <div className='flip-card-front'>
                   <img src={item.description.image_link} alt='Avatar' />
-                </div>
-                <div className='flip-card-back'>
+                </div> */}
+                <div className='flip-card-backs'>
                   <h4>{item.description.title}</h4>
                   <p>{item.description.body}</p>
                   <p className='links-git'>link(s) to github repo:</p>

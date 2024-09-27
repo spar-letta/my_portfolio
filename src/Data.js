@@ -8,25 +8,22 @@ export const MyData = [
     },
     data_link: [
       {
-        link: 'https://github.com/spar-letta/post-comment-microservice',
+        link: 'https://github.com/spar-letta/post-comment-project',
         text: 'post-comment-likes microservice',
       },
     ],
     tools: [
       {
-        tool: 'spring boot',
+        tool: 'spring boot, Java 17',
       },
       {
-        tool: 'java 8 Streams',
+        tool: 'Oauth2 Security',
       },
       {
-        tool: 'h2 Db',
+        tool: 'h2 for Integration Tests',
       },
       {
-        tool: 'mysql Db',
-      },
-      {
-        tool: 'Eureka',
+        tool: 'Postgres Db Live Testing',
       },
     ],
   },
