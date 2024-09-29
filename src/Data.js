@@ -31,29 +31,13 @@ export const MyData = [
     description: {
       image_link:
         'https://raw.githubusercontent.com/spar-letta/DataFile/main/Screenshot%20from%202023-07-18%2010-42-24.png',
-      title: 'Book_Author Microservice',
-      body: 'book-author: one can login and create or access books published by a certain author. The jenkins pipeline used to build, test, create docker file and push it to docker hub.',
+      title: 'Library Store',
+      body: 'Book Management',
     },
     data_link: [
       {
-        link: 'https://github.com/spar-letta/novel-author-service',
-        text: 'author-svc',
-      },
-      {
-        link: 'https://github.com/spar-letta/book-service',
-        text: 'book-svc',
-      },
-      {
-        link: 'https://github.com/spar-letta/novel-security-service',
-        text: 'security-svc',
-      },
-      {
-        link: 'https://github.com/spar-letta/novel-eureka-service',
-        text: 'discovery-svc',
-      },
-      {
-        link: 'https://github.com/spar-letta/novel-gateway-service',
-        text: 'gateway-svc',
+        link: 'https://github.com/spar-letta/library',
+        text: 'repo',
       },
     ],
     tools: [
@@ -61,22 +45,10 @@ export const MyData = [
         tool: 'spring boot',
       },
       {
-        tool: 'junit test',
+        tool: 'Integration test',
       },
       {
-        tool: 'Validations',
-      },
-      {
-        tool: 'Error handling',
-      },
-      {
-        tool: 'mysql db',
-      },
-      {
-        tool: 'jwt security',
-      },
-      {
-        tool: 'jenkins pipeline',
+        tool: 'Batching',
       },
     ],
   },

@@ -7,7 +7,7 @@ const Content3 = () => {
       <p className='summ-div'></p>
       <div className='list-items-skills'>
         <ul>
-          <li>J2EE - Spring boot, JSP,Spring Framework</li>
+          <li>Spring boot</li>
           <li>Microservices architecture</li>
           <li>Web-services - REST/JSON</li>
           <li>Testing - JUnit,Mockito, Integration </li>
