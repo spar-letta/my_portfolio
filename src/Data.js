@@ -52,6 +52,29 @@ export const MyData = [
       },
     ],
   },
+
+  {
+    description: {
+      image_link:
+        'https://raw.githubusercontent.com/spar-letta/DataFile/main/hospital.jpg',
+      title: 'Hospital-Management - Microservice',
+      body: 'Mini Hospital management microservice',
+    },
+    data_link: [
+      {
+        link: 'https://github.com/spar-letta/mini-hospital-api',
+        text: 'Mini-Hospital-Management',
+      },
+    ],
+    tools: [
+      {
+        tool: 'spring boot - Java 17',
+      },
+      {
+        tool: 'H2 for Testing',
+      },
+    ],
+  },
   {
     description: {
       image_link:
@@ -118,43 +141,7 @@ export const MyData = [
       },
     ],
   },
-  {
-    description: {
-      image_link:
-        'https://raw.githubusercontent.com/spar-letta/DataFile/main/hospital.jpg',
-      title: 'Hospital-Management - Microservice',
-      body: 'Hospital management microservice - How services communicate with each other using restTemplate and routing them through the gateway.',
-    },
-    data_link: [
-      {
-        link: 'https://github.com/spar-letta/hospital-management',
-        text: 'Hospital-Management',
-      },
-    ],
-    tools: [
-      {
-        tool: 'spring boot',
-      },
-      {
-        tool: 'h2 Db',
-      },
-      {
-        tool: 'Jpa',
-      },
-      {
-        tool: 'Integration Test',
-      },
-      {
-        tool: 'Kafka',
-      },
-      {
-        tool: 'jwt-security',
-      },
-      {
-        tool: 'docker',
-      },
-    ],
-  },
+  
   {
     description: {
       image_link:

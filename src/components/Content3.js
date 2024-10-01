@@ -17,6 +17,8 @@ const Content3 = () => {
           <li>Messaging - Kafka, RabbitMq</li>
           <li>UI - Html,Css,Javacript,React js</li>
           <li>Data Migration - Liquibase</li>
+          <li>Payment Integration - Daraja Api</li>
+          <li>Azure Operations</li>
         </ul>
       </div>
     </div>
